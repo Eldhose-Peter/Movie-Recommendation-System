@@ -3,6 +3,8 @@ package src.pdo;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+//EfficientRater uses a HashMap instead of an ArrayList for more efficient queries.
+
 public class EfficientRater implements Rater{
     
     private String myID;
