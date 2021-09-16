@@ -7,8 +7,8 @@ import java.util.HashMap;
 
 public class EfficientRater implements Rater{
     
-    private String myID;
-    private HashMap<String,Rating> myRatings;
+    private String myID; //raterID
+    private HashMap<String,Rating> myRatings; //movieID to MovieRating
 
     public EfficientRater(String id) {
         myID = id;
