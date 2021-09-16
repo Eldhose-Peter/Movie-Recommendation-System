@@ -9,7 +9,7 @@ import org.apache.commons.csv.*;
 import edu.duke.FileResource;
 
 public class MovieDatabase {
-    private static HashMap<String, Movie> ourMovies;
+    private static HashMap<String, Movie> ourMovies;//maps movieId to movie
 
     public static void initialize(String moviefile) {
         if (ourMovies == null) {
